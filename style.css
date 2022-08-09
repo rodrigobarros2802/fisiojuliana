@@ -213,7 +213,7 @@ p {
     top: 198.9%;
     background-color: #b7897e;
     width: 100%;
-    height: 90%;
+    height: 880px;
 }
 
 .textos h2 {
@@ -357,4 +357,58 @@ p {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.container-4 {
+    background-color: white;
+    position: relative;
+    margin: 30px;
+    top: 15%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+    gap: 40px;
+}
+
+.container-4 h2 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    color: #924d39;
+    top: -7%;
+}
+
+.container-4 hr {
+    background-color: #924d39;
+    position: absolute;
+    height: 4px;
+    width: 250px;
+    top: 2%;
+    left: 43.5%;
+    border: none;
+}
+
+.bloco-1 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px #924d39;
+}
+
+.bloco-2 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px #924d39;
+}
+
+.bloco-3 {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px #924d39;
 }
