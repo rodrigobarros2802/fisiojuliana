@@ -247,9 +247,7 @@ p {
     left: 10%;
     background-color: white;
     width: 25%;
-    border-radius: 5px;
-    border: 2px;
-    box-shadow: 5px 10px #b7897e;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .container-1 img {
@@ -288,9 +286,7 @@ p {
     left: 12%;
     background-color: white;
     width: 25%;
-    border-radius: 5px;
-    border: 2px;
-    box-shadow: 5px 10px #b7897e;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .container-2 img {
@@ -329,9 +325,8 @@ p {
     left: 14%;
     background-color: white;
     width: 25%;
-    border-radius: 5px;
     border: 2px;
-    box-shadow: 5px 10px #b7897e;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .container-3 img {
