@@ -19,7 +19,7 @@ body {
     max-width: 100vw;
 }
     
-.container {
+.glassmorphism {
     width: 100%;
     max-width: 600px;
     background-image: linear-gradient(to left, transparent, gray);
@@ -55,7 +55,7 @@ p {
     font-weight: bold;
     font-size: 20px;
     color: white;
-    text-align: right;
+    text-align: center;
     margin: 10px;
     color: #e08974;
 }
@@ -365,7 +365,7 @@ p {
 .container-4 {
     background-color: white;
     position: relative;
-    margin: 30px;
+    margin: auto;
     top: 15%;
     height: 600px;
     display: flex;
@@ -378,20 +378,16 @@ p {
 }
 
 .container-4 h2 {
-    position: absolute;
     font-size: 40px;
     text-align: center;
+    align-self: center;
+    align-content: center;
     color: #924d39;
-    top: -7%;
 }
 
 .container-4 hr {
     background-color: #924d39;
-    position: absolute;
     height: 4px;
-    width: 240px;
-    top: 2%;
-    left: 44%;
     border: none;
 }
 
