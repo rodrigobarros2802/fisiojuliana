@@ -21,13 +21,17 @@ body {
 
 /* Início Cabeçalho */
 .container-cabecalho {
+    backdrop-filter: blur(10px);
     background: transparent;
+    position: fixed;
     display: flex;
+    padding: 10px;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding: 10px;
+    
 }
 
 .menu {
@@ -46,7 +50,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: #e08974;
+    color: white;
 }
 /* Final Cabeçalho */
   
