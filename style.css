@@ -296,47 +296,92 @@ body {
 }
 /* Final Curriculo */
 
+/* Início Tratamentos Oferecidos*/
+/* Início Container Tratamentos */
+.container-tratamentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #b7897e;
+    height: 1000px;
+}
+/* Final Container Tratamentos */
 
-
-
-
-.tratamentos {
-    position: absolute;
-    top: 198.9%;
-    background-color: #b7897e;
-    width: 100%;
-    height: 880px;
+/* Início Texto Tratamentos */
+.texto-tratamentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: black;
 }
 
-.textos h2 {
+.texto-tratamentos h2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     text-align: center;
     color: white;
     font-size: 40px;
-    margin-top: 40px;
 }
 
-.textos hr {
-    position: relative;
-    left: 41.5%;
-    width: 15%;
+.texto-tratamentos hr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
     height: 4px;
     background-color: white;
     border: none;
     margin: 20px;
 }
 
-.textos p {
+.texto-tratamentos p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
     color: white;
     font-size: 22px;
 }
 
+/* Início Configuração Botão Saiba Mais */
+.botao-saiba input {
+    display: flex;
+    flex-direction: row;
+    left: 40%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #b7897e;
+    border-radius: 10px;
+}
+/* Final Configuração Botão Saiba Mais */
+/* Final Texto Tratamentos */
+
+/* Início Containers 1 2 3 */
 .container-1 {
-    display: inline-block;
-    position: relative;
-    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
     background-color: white;
     width: 25%;
     box-shadow: 1px 1px 10px 1px black;
@@ -344,13 +389,13 @@ body {
 
 .container-1 img {
     width: 100%;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .container-1 h3 {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    color: black;
 }
 
 .container-1 p {
@@ -358,24 +403,16 @@ body {
     font-size: 15px;
     padding: 10px;
     margin: 10px;
-}
-
-.container-1 input {
-    position: relative;
-    left: 40%;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+    color: black;
 }
 
 .container-2 {
-    display: inline-block;
-    position: relative;
-    left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
     background-color: white;
     width: 25%;
     box-shadow: 1px 1px 10px 1px black;
@@ -383,7 +420,6 @@ body {
 
 .container-2 img {
     width: 99.9%;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .container-2 h3 {
@@ -397,24 +433,16 @@ body {
     font-size: 15px;
     padding: 10px;
     margin: 10px;
-}
-
-.container-2 input {
-    position: relative;
-    left: 40%;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+    color: black;
 }
 
 .container-3 {
-    display: inline-block;
-    position: relative;
-    left: 14%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
     background-color: white;
     width: 25%;
     border: 2px;
@@ -423,7 +451,6 @@ body {
 
 .container-3 img {
     width: 100%;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .container-3 h3 {
@@ -437,19 +464,9 @@ body {
     font-size: 15px;
     padding: 10px;
     margin: 10px;
+    color: black;
 }
-
-.container-3 input {
-    position: relative;
-    left: 40%;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
+/* Final Containers 1 2 3 */
 
 .container-4 {
     background-color: white;
