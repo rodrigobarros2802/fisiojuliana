@@ -55,22 +55,24 @@ body {
     display: flex;
     height: 2600px;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-self: center;
 }
 
 /* Efeito Glassmorphism */
-.glassmorphism {
+/* .glassmorphism {
     background-image: linear-gradient(to left, transparent, gray);
     background-color: transparent;
     backdrop-filter: blur(50px);
+    display: block;
     width: 30%;
     padding: 15px 2%;
     color: white;
-}
+} */
 
-.glass-texto h1 {
+/* .glass-texto h1 {
     color: #e08974;
     font-weight: bold;
 }
@@ -78,113 +80,140 @@ body {
 .glass-texto p {
     font-weight: bold;
     font-size: 20px;
-}
+} */
 /* Final Efeito Glassmorphism */
 
-/* Menu Especializações */
-.pos {
-    display: inline-block;
+/* Menu Apresentação */
+.container-apresentacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* Início Pós-Operatório */
+.bisturi {
+    display: flex;
     background-color: #d07d68;
-    position: absolute;
-    top: 90%;
-    width: 704px;
-    height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.pos img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    color: white;
-    margin-top: 15px;
+.bisturi-logo img {
+    position: relative;
+    left: 43%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.pos h3 {
+.bisturi-texto h3, p {
+    display: flex;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
+/* Final Pós-Operatório */
 
-.pos p {
-    font-size: 22px;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
+/* Início Cursos */
 .cursos {
-    display: inline-block;
+    display: flex;
     background-color: #924d39;
-    position: absolute;
-    top: 90%;
-    left: 33.5%;
-    width: 704px;
-    height: 250px;
-    margin-left: -4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.cursos img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    color: white;
-    margin-top: 15px;
+.cursos-logo img {
+    position: relative;
+    left: 43%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.cursos h3 {
+.cursos-texto h3, p {
+    display: flex;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
+/* Final Cursos */
 
-.cursos p {
-    font-size: 22px;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
+/* Início Especialização */
 .especializacao {
-    display: inline-block;
+    display: flex;
     background-color: #d07d68;
-    position: absolute;
-    top: 90%;
-    left: 66.83%;
-    width: 703px;
-    height: 250px;
-    margin-left: -4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.especializacao img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    color: white;
-    margin-top: 15px;
+.especializacao-logo img {
+    position: relative;
+    left: 43%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
-.especializacao h3 {
+.especializacao-texto h3, p {
+    display: flex;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
-
-.especializacao p {
-    font-size: 22px;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+/* Final Especialização */
+/* Final Menu Apresentação */
 
 .curriculo {
     position: absolute;
-    background-color: white;
+    background-color: transparent;
     top: 114.2%;
     width: 100%;
 }
