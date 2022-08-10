@@ -18,13 +18,46 @@ body {
     min-height: 100vh;
     max-width: 100vw;
 }
-    
+
+/* Início Cabeçalho */
+.container-cabecalho {
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.menu li a {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e08974;
+}
+/* Final Cabeçalho */
+  
+/* Efeito Glassmorphism */
 .glassmorphism {
-    width: 100%;
-    max-width: 600px;
     background-image: linear-gradient(to left, transparent, gray);
     background-color: transparent;
     backdrop-filter: blur(50px);
+    width: 100%;
+    max-width: 600px;
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,32 +66,16 @@ body {
     color: white;
 }
 
-h1 {
+.glass-texto h1 {
     color: #e08974;
     font-weight: bold;
 }
 
-p {
+.glass-texto p {
     font-weight: bold;
     font-size: 20px;
 }
-
-.link {
-    margin-top: 15px;
-}
-
-.link a {
-    display: inline;
-    position: relative;
-    left: 65%;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin: 10px;
-    color: #e08974;
-}
+/* Final Efeito Glassmorphism */
 
 .pos {
     display: inline-block;
@@ -377,15 +394,17 @@ p {
     gap: 40px;
 }
 
-.container-4 h2 {
-    font-size: 40px;
-    text-align: center;
-    align-self: center;
-    align-content: center;
+.titulo {
+    background: red;
     color: #924d39;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
-.container-4 hr {
+.titulo hr {
     background-color: #924d39;
     height: 4px;
     border: none;
