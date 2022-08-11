@@ -1,9 +1,23 @@
-$('.menu a[href^="#"]').on('click', function(e){
-    e.preventDefault();
-    var id = $(this).attr('href'),
-    targetOffset = $(id).offset().top;
+const menuItems = document.querySelectorAll('.nav-menu a[href^="#"]');
+menuItems.forEach(item => {
+    item.addEventListener('click', scrollToIdOnClick)
+})
 
-    $('html, body').animate({
-        scrollTop: targetOffset - 100
-    }, 500);
-});
+function getScrollTopByHref(element) {
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop;
+}
+
+function scrollToIdOnClick(event) {
+    event.preventDefault();
+    const to = getScrollTopByHref(event.target) - 80;
+    scrollToPosition(to);
+}
+
+function scrollToPosition(to) {
+    window.scroll({
+        top: to,
+        behavior: "smooth",
+    });
+}
+
