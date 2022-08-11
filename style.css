@@ -17,7 +17,7 @@ body {
 /* Início Cabeçalho */
 .container-cabecalho {
     backdrop-filter: blur(10px);
-    background: transparent;
+    background: #d07d68;
     position: fixed;
     display: flex;
     padding: 10px;
