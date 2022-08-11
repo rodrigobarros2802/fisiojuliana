@@ -105,7 +105,7 @@ body {
 .container-apresentacao{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -126,7 +126,8 @@ body {
 
 .bisturi-logo img {
     position: relative;
-    left: 43%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -135,6 +136,7 @@ body {
     align-items: center;
     align-self: center;
     align-content: center;
+    margin-top: 15px;
 }
 
 .bisturi-texto h3, p {
@@ -166,7 +168,8 @@ body {
 
 .cursos-logo img {
     position: relative;
-    left: 51%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -175,6 +178,7 @@ body {
     align-items: center;
     align-self: center;
     align-content: center;
+    margin-top: 15px;
 }
 
 .cursos-texto h3, p {
@@ -205,7 +209,8 @@ body {
 
 .especializacao-logo img {
     position: relative;
-    left: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -214,6 +219,7 @@ body {
     align-items: center;
     align-self: center;
     align-content: center;
+    margin-top: 15px;
 }
 
 .especializacao-texto h3, p {
@@ -670,4 +676,13 @@ body {
     text-align: center;
 }
 
+.copyright {
+    background: #767676;
+    width: 100%;
+    font-size: 15px;
+}
+
+.copyright p {
+    font-size: 18px;
+}
 
